@@ -199,10 +199,10 @@ export const projects: Project[] = [
   },
   {
     slug: "tavana-reel-highlights",
-    title: "TAVANA Reel (Highlights)",
+    title: "Production Review & Creative Rationale",
     client: "Portfolio Highlights",
     category: "Short-form",
-    software: ["Premiere Pro", "After Effects"],
+    software: ["CapCut Pro "],
     thumbnail: "/images/projects/tavana-reel-highlights.png",
     heroVideo: "/videos/projects/tavana-reel-highlights.mp4",
     finalVideo: "/videos/projects/tavana-reel-highlights.mp4",
@@ -215,10 +215,33 @@ export const projects: Project[] = [
     externalLinks: [
       {
         label: "View the work section",
-        url: "https://drive.google.com/file/d/1C8PYz2KgbJuQi9MdlGsEmXM8wsdi9XSH/view?usp=drive_link"
+        url: "https://drive.google.com/file/d/11QCjDg6-tVyPWdqpQMU4WBGQhGDOcxyb/view?usp=drive_link"
       }
     ],
     duration: "00:01:20"
+  },
+  {
+    slug: "short-form-showcase",
+    title: "Short-Form Showcase",
+    client: "Personal Project",
+    category: "Short-form",
+    software: ["Premiere Pro", "CapCut"],
+    thumbnail: "/images/projects/high-retention.jpg",
+    heroVideo: "/videos/projects/high-retention-reels.mp4",
+    finalVideo: "/videos/projects/high-retention-reels.mp4",
+    description: "A short-form showcase featuring a direct link to the requested Google Drive project.",
+    overview: "This entry adds the provided short-form link to the work gallery so it can be opened directly from the portfolio.",
+    challenge: "The work needed a clear, lightweight entry that could surface the link without disrupting the rest of the section.",
+    solution: "I added a dedicated short-form project card with the supplied link and a matching thumbnail for easy discovery.",
+    process: "The entry was structured to fit the existing portfolio format and appear alongside the other short-form projects.",
+    deliverables: ["Short-form link", "Portfolio entry", "Quick access to the drive file"],
+    externalLinks: [
+      {
+        label: "Open short-form link",
+        url: "https://drive.google.com/file/d/1C8PYz2KgbJuQi9MdlGsEmXM8wsdi9XSH/view?usp=drive_link"
+      }
+    ],
+    duration: "00:00:28"
   }
 ];
 
